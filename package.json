@@ -1,13 +1,10 @@
 {
-  "homepage": "https://raptorh4c3r.github.io/SUPERCHAT",
   "name": "nodejs-chat-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d dev",
     "build": "vite build",
     "preview": "vite preview"
   },
