@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 import requests
 
-PRIVATE_KEY = "6ea3a1a8-384d-4327-bda4-e4153480a7aa"
+PRIVATE_KEY = "your private key"
 
 app = FastAPI()
 app.add_middleware(
